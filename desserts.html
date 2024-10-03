@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>MY FAVORITE DESSERTS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="desserts.html">Dessert Options</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="advanced.html">Advanced</a>
+        </li>
+      </ul>
+    </div>
+        
+  </nav>
+  <h3>After dinner hosted by RAM</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2 ">R</div>
+      <div class="col-sm-2 ">A</div>
+      <div class="col-sm-2 ">J</div>
+      <div class="col-sm-2 ">A</div>
+      <div class="col-sm-2 ">D</div>
+      <div class="col-sm-2 ">U</div>
+    </div>
+    <div class="row">
+      <div class="col-md">Rasagulla</div>
+      <div class="col-md">American Dry fruit ice cream</div>
+      <div class="col-md">Jelabi</div>
+      <div class="col-md">Apple pie</div>
+      <div class="col-md">Donuts</div>
+      <div class="col-md">Upside-Down Cake</div>
+
+    </div>
+  </div>
+  <p>First the row with deserts names gets broken when the screen size is reduced because this rows are in class
+    col-sm-2 which is a small size with 576px</p>
+
+  <div class="container">
+    <img src="rasu.jpg" class="img-fluid" width="350px" height="350px">
+    <img src="jelabi.jpeg" class="img-fluid" width="350px" height="350px">
+    <img src="donut.jpg" class="img-fluid" width="350px" height="350px">
+  </div>
+
+  <div class="container">
+    <img src="rasu.jpg" class="img-thumbnail" width="250" height="250">
+    <img src="jelabi.jpeg" class="img-thumbnail" width="250" height="250">
+    <img src="donut.jpg" class="img-thumbnail" width="250" height="250">
+  </div>
+
+  <table class="table table-striped table-bordered table-hover border-danger">
+    <caption>MY FAVORITE DESSERTS</caption>
+    <thead class="table-warning">
+      <tr>
+        <th scope="col">Letter</th>
+        <th scope="col">Desert</th>
+        <th scope="col">City</th>
+        <th scope="col">Insect</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr class="table-primary">
+        <th scope="row">R</th>
+        <td>Rasagulla</td>
+        <td>Rome</td>
+        <td class="table-light">Rice bug</td>
+      </tr>
+      <tr class="table-success">
+        <th scope="row">A</th>
+        <td>American Dry fruit ice cream</td>
+        <td class="table-danger">Amsterdam</td>
+        <td>Ant</td>
+      </tr>
+      <tr class="table-dark">
+        <th scope="row">J</th>
+        <td class="table-info">Jelabi</td>
+        <td>Jaipur</td>
+        <td>Japanese Beetle</td>
+      </tr>
+      <tr>
+        <th scope="row">A</th>
+        <td>Apple Pie</td>
+        <td>Ahmedabad</td>
+        <td>Aphid</td>
+      </tr>
+      <tr>
+        <th scope="row">D</th>
+        <td>Donuts</td>
+        <td>Des Moines</td>
+        <td>Damselflies</td>
+      </tr>
+      <tr>
+        <th scope="row">U</th>
+        <td>Upside-Down Cake</td>
+        <td class="table-active">Urbana</td>
+        <td>Unicorn Caterpillar Moth</td>
+      </tr>
+
+
+    </tbody>
+  </table>
+
+  <div class="btn-toolbar">
+    <div class="btn-group" aria-label="button group with btn-success">
+      <button type="button" class="btn btn-success">R</button>
+      <button type="button" class="btn btn-success">J</button>
+      <button type="button" class="btn btn-success">D</button>
+    </div>
+    <div class="btn-group" aria-label="button group with btn-warning">
+      <button type="button" class="btn btn-warning">A</button>
+      <button type="button" class="btn btn-warning">U</button>
+    </div>
+    <div class="btn-group" aria-label="button group with btn-danger">
+      <button type="button" class="btn btn-danger">A</button>
+    </div>
+  </div>
+  <br>
+
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="basic.html">basic</a>
+      <a class="dropdown-item" href="advanced.html">advanced</a>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <form>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="dessert">Dessert</label>
+            <input type="text" class="form-control" id="dessert" placeholder="Enter your dessert">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="newsletter">
+            <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+    </div>
+
+</body>
+
+</html>
